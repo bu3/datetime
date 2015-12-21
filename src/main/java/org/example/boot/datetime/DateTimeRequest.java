@@ -2,15 +2,9 @@ package org.example.boot.datetime;
 
 import org.joda.time.DateTime;
 
-public class DateTimeResponse {
+public class DateTimeRequest {
 
-    private DateTime time = DateTime.now();
-
-    public DateTimeResponse(){}
-
-    public DateTimeResponse(DateTime time) {
-        this.time = time;
-    }
+    private DateTime time;
 
     public DateTime getTime() {
         return time;
